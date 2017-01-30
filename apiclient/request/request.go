@@ -5,7 +5,7 @@ import (
 	"gopkg.in/h2non/gentleman.v1/plugins/auth"
 	"gopkg.in/h2non/gentleman.v1/plugins/body"
 
-	"github.com/evalphobia/go-datarobot/apiclient/config"
+	"github.com/jamesneve/go-datarobot/apiclient/config"
 )
 // Post sends POST request to datarobot api
 func Post(c config.Config, path string, param interface{}) (*Response, error) {

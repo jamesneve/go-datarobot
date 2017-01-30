@@ -3,8 +3,8 @@ package predict
 import (
 	"fmt"
 
-	"github.com/evalphobia/go-datarobot/apiclient/config"
-	"github.com/evalphobia/go-datarobot/apiclient/request"
+	"github.com/jamesneve/go-datarobot/apiclient/config"
+	"github.com/jamesneve/go-datarobot/apiclient/request"
 )
 
 const (

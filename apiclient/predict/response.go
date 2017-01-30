@@ -1,6 +1,6 @@
 package predict
 
-import "github.com/evalphobia/go-datarobot/apiclient/request"
+import "github.com/jamesneve/go-datarobot/apiclient/request"
 
 // Response is api response from datarobot
 type Response struct {
