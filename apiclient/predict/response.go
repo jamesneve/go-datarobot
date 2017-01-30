@@ -15,7 +15,7 @@ type Response struct {
 // Prediction is struct for predict result
 type Prediction struct {
 	RowID              int                `json:"row_id"`
-	Prediction         string             `json:"prediction"`
+	Prediction         float64            `json:"prediction"`
 	ClassProbabilities map[string]float64 `json:"class_probabilities,omitempty"`
 }
 
